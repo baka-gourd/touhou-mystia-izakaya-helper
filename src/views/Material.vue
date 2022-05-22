@@ -57,7 +57,7 @@
                 </n-space>
                 <n-space style="display: flex; align-items: center">
                     <span>Tag</span>
-                    <n-tag v-for="m in app.material?.tags">{{ m }}</n-tag>
+                    <n-tag v-for="m in app.material?.tags">{{ app.getTag(m) }}</n-tag>
                 </n-space>
             </n-card>
         </div>
@@ -70,14 +70,14 @@ import { ref } from "vue";
 import { CheckmarkOutline, AlertOutline } from "@vicons/ionicons5";
 const app = useAppDataStore();
 let loading = ref(true);
-app.loadMaterials()
+app.loadAll()
     .then(() => {
         loading.value = false;
     })
     .catch(console.error);
 
 function handleMaterialClick(id: string) {
-    app.getMaterial(id);
+    app.selectMaterial(id);
 }
 </script>
 

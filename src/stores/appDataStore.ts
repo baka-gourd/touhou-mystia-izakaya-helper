@@ -7,6 +7,8 @@ export const useAppDataStore = defineStore("app", {
         return {
             materialMap: new Map<string, Material>(),
             material: undefined as Material | undefined,
+            tagMap: new Map<string, string>(),
+            tag: undefined as string | undefined,
         };
     },
     actions: {
@@ -17,8 +19,24 @@ export const useAppDataStore = defineStore("app", {
                 json.map((m) => [m.id, m])
             );
         },
-        getMaterial(id: string) {
+        async loadTags() {
+            let rsp = await axios.get("/res/tags.json");
+            let json = JSON.parse(JSON.stringify(rsp.data));
+            let map = new Map<string, string>();
+            for (let value in json) {
+                map.set(value, json[value]);
+            }
+            this.tagMap = map;
+        },
+        async loadAll() {
+            await this.loadMaterials();
+            await this.loadTags();
+        },
+        selectMaterial(id: string) {
             this.material = this.materialMap.get(id);
+        },
+        getTag(id: string): string | undefined {
+            return this.tagMap.get(id);
         },
     },
     getters: {
