@@ -1,0 +1,196 @@
+[
+    {
+        "id": "7b56763c-ecc1-673d-b15e-272e146b834b",
+        "name": "鳟鱼",
+        "tags": [
+            "水产",
+            "鲜"
+        ],
+        "locations": [
+            "妖怪兽道河流处采集",
+            "旧地狱鬼商处购买"
+        ],
+        "categories": [
+            "海鲜"
+        ],
+        "canBuy": true,
+        "canCoolect": true,
+        "color": "success"
+    },
+    {
+        "id": "1d06e60d-ac6c-4f33-b9ae-5fa866f681f8",
+        "name": "八目鳗",
+        "tags": [
+            "水产",
+            "招牌",
+            "鲜"
+        ],
+        "locations": [
+            "妖怪兽道河流处采集"
+        ],
+        "categories": [
+            "海鲜"
+        ],
+        "canBuy": false,
+        "canCoolect": true,
+        "color": "success"
+    },
+    {
+        "id": "12ea451d-4bca-4427-b80e-905b4996cddd",
+        "name": "三文鱼",
+        "tags": [
+            "水产",
+            "高级",
+            "鲜"
+        ],
+        "locations": [
+            "非妖怪兽道河流处采集",
+            "妖怪兽道商人处（概率）",
+            "旧地狱鬼商处购买"
+        ],
+        "categories": [
+            "海鲜"
+        ],
+        "canBuy": true,
+        "canCoolect": true,
+        "color": "success"
+    },
+    {
+        "id": "e39aa6fc-eea5-4f9b-afe1-3783f15fc686",
+        "name": "金枪鱼",
+        "tags": [
+            "水产",
+            "高级",
+            "鲜"
+        ],
+        "locations": [
+            "非妖怪兽道河流处采集"
+        ],
+        "categories": [
+            "海鲜"
+        ],
+        "canBuy": true,
+        "canCoolect": true,
+        "color": "success"
+    },
+    {
+        "id": "3cc7411d-e25c-4fbf-893e-f81d489079e4",
+        "name": "极上金枪鱼",
+        "tags": [
+            "水产",
+            "高级",
+            "传说",
+            "海味",
+            "鲜"
+        ],
+        "locations": [
+            "迷途竹林河流处采集",
+            "博丽神社妖精女仆处购买",
+            "红魔馆地精处购买"
+        ],
+        "categories": [
+            "海鲜"
+        ],
+        "canBuy": true,
+        "canCoolect": true,
+        "color": "success"
+    },
+    {
+        "id": "4acdcd71-22a8-426d-93e2-bfa239a6e726",
+        "name": "河豚",
+        "tags": [
+            "水产",
+            "海味",
+            "鲜"
+        ],
+        "locations": [
+            "红魔馆河流处采集",
+            "地灵殿水池处采集",
+            "博丽神社妖精女仆处购买",
+            "红魔馆地精处购买",
+            "迷途竹林妖怪兔处购买"
+        ],
+        "categories": [
+            "海鲜"
+        ],
+        "canBuy": true,
+        "canCoolect": true,
+        "color": "success"
+    },
+    {
+        "id": "7a609170-aa3a-4a89-bd58-fffc8ff6a24c",
+        "name": "虾",
+        "tags": [
+            "水产",
+            "鲜"
+        ],
+        "locations": [
+            "非妖怪兽道河流处采集"
+        ],
+        "categories": [
+            "海鲜"
+        ],
+        "canBuy": false,
+        "canCoolect": true,
+        "color": "success"
+    },
+    {
+        "id": "31da46c2-e735-4dd9-8339-aa42419218d9",
+        "name": "章鱼",
+        "tags": [
+            "水产",
+            "鲜",
+            "海味"
+        ],
+        "locations": [
+            "妖怪之山河流处采集",
+            "妖怪之山河童处购买"
+        ],
+        "categories": [
+            "海鲜"
+        ],
+        "canBuy": true,
+        "canCoolect": true,
+        "color": "success"
+    },
+    {
+        "id": "4990fdf9-eaa2-4a5b-aad2-63c39e748c1f",
+        "name": "海胆",
+        "tags": [
+            "水产",
+            "鲜",
+            "海味",
+            "传说",
+            "高级"
+        ],
+        "locations": [
+            "妖怪之山河流处采集",
+            "妖怪之山河童处购买"
+        ],
+        "categories": [
+            "海鲜"
+        ],
+        "canBuy": true,
+        "canCoolect": true,
+        "color": "success"
+    },
+    {
+        "id": "f357f78d-2015-4ca4-8bb3-fa93b576e7ce",
+        "name": "螃蟹",
+        "tags": [
+            "水产",
+            "鲜",
+            "高级"
+        ],
+        "locations": [
+            "妖怪之山河流处采集",
+            "妖怪之山河童处购买"
+        ],
+        "categories": [
+            "海鲜"
+        ],
+        "canBuy": true,
+        "canCoolect": true,
+        "color": "success"
+    }
+]
